@@ -8,7 +8,7 @@ const Header = () => {
             className="bg-cover bg-center h-[640px]  bg-no-repeat flex justify-center items-center"
         >
             <Particl />
-            <div className="w-2/4 mx-auto">
+            <div className="lg:w-2/4 w-full mx-auto">
                 <div className="bg-orange-500 text-white p-10">
                     <h2 className="text-4xl">JOIN THE LIST OF OUR 279,000+ <br /> SUBSCRIBERS</h2>
                     <h3 className="text-lg mt-5">RECEIVE LATEST DEALS & TIPS/TRICKS DIRECTLY TO THEIR INBOX. FOR FREE</h3>

@@ -1,6 +1,7 @@
 import headerImg from '../../../assets/header.jpg'
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
+import './Particle.css'
 const Particl = () => {
     const option = {
         "fullScreen": {
@@ -103,7 +104,9 @@ const Particl = () => {
 
 
             id="tsparticles"
-            init={particlesInit} options={option} />
+            init={particlesInit} options={option}
+            canvasClassName="my-particles-canvas"
+        />
 
 
     );

@@ -1,0 +1,6 @@
+#tsparticles.my-particles-canvas {
+    /* Your custom styles for the canvas here */
+    border: 2px solid red !important;
+    /* Add any other styles you want */
+    position: relative !important;
+}
