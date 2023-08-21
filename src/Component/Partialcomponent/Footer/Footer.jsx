@@ -2,7 +2,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaLocationDot, FaPhone, FaTwitter 
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-800 text-white py-10 px-10 mt-10">
+        <footer className="bg-gray-800 text-white p-10  mt-10">
             <div className="grid grid-cols-1 lg:grid-cols-3">
                 <div className="space-y-7">
                     <h1 className="text-5xl font-bold">Tech <span className="text-[#FF6F69]">Bit</span></h1>

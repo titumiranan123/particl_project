@@ -1,11 +1,14 @@
 import img from "../../../../src/assets/it_worker.avif";
 const Hire = () => {
     return (
-        <div className='bg-black mt-10 p-10 flex flex-wrap lg:flex-nowrap bg-transparent justify-center items-center gap-10 '>
-            <div className="w-[50%]">
+        <div className='bg-black mt-10 p-10 flex flex-wrap lg:flex-nowrap justify-center items-center gap-10 '>
+            <div className="lg:w-[50%] w-full bg-black">
                 <img src={img} alt="" />
             </div>
-            <div className="space-y-10">
+            <div
+                data-aos-duration="1000" data-aos-delay="100" data-aos='flip-up'
+
+                className="space-y-10 bg-black p-10">
                 <span className='bg-white p-2'>UI/UX</span>
                 <h1 className="text-4xl text-white font-bold">Our consultation is always in sync with your strategy</h1>
                 <p className="text-lg text-white font-semibold">

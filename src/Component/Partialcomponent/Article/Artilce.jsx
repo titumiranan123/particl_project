@@ -13,9 +13,20 @@ const Artilce = () => {
 
 
             <div className='mt-20 grid-cols-1 gap-5 grid lg:grid-cols-3'>
-                <Articlard />
-                <Articlard />
-                <Articlard />
+                <div
+                    data-aos-duration="1000" data-aos-delay="100" data-aos='fade-right'>
+                    <Articlard />
+                </div>
+                <div
+                    data-aos-duration="1000" data-aos-delay="100" data-aos='flip-up'>
+                    <Articlard />
+                </div>
+                <div
+                    data-aos-duration="1000" data-aos-delay="100" data-aos='fade-left'>
+                    <Articlard />
+                </div>
+
+
             </div>
         </div>
     );

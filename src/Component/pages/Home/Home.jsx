@@ -23,7 +23,7 @@ const Home = () => {
     return (
         <div className="">
             <Header />
-            <div className="bg-white px-[50px] lg:px-[120px] ">
+            <div className="bg-white px-10 md:px-[50px] lg:px-[120px] ">
                 <Services />
                 <Coursesection />
                 <Tool />
