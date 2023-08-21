@@ -37,7 +37,7 @@ const Services = () => {
                         <li className="flex gap-5 font-bold bg-orange-400 px-5 py-4"><FaCheck />Visual Appela</li>
                     </ul>
                 </div>
-                {/* </div> */}
+
 
             </div>
         </div>
